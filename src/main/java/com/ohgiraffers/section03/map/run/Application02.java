@@ -24,7 +24,7 @@ public class Application02 {
         prop.setProperty("url", "jdbc:mysql://localhost/menu");
         prop.setProperty("user", "ohgiraffers");
         prop.setProperty("password", "ohgiraffers");
-
+        prop.setProperty("password", "ohgiraffers");
         System.out.println("prop = " + prop);
 
         // try 구문 안에 내용이 실행 될때 예외가 발생하면 catch 구문으로 디동해서 예외를 발생시킴
